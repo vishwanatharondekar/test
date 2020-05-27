@@ -4,5 +4,5 @@ node_js:
 jobs:
   include:
     - stage: Test
-        script:
+      script:
         - echo "yml works"
