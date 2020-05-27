@@ -3,6 +3,6 @@ node_js:
   - '10.0.0'
 jobs:
   include:
-    - stage: Test Yml
-        script:
-          - echo "yml works"
+    - stage: Test
+      script:
+        - echo "yml works"
